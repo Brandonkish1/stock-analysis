@@ -11,6 +11,10 @@ The purpose of this analysis is analyze Green Energy stocks for Steve's parents.
 ## Summary
 
 ### Refactoring Code
+#### Advantages
+Some advantages of refactored code are improved performance. This could be because the code runs faster, is less repetitive, or structured for a large volume of data rather than a hard coded range. 
 
+#### Disadvantages
+There is potential for mistakes. You are taking something that worked and changing it. 
 
 ### How it applies to this analysis
