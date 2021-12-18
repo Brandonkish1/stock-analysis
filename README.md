@@ -20,7 +20,7 @@ There is potential for mistakes. You are taking something that worked and changi
 #### How it applies to this analysis
 In this anlysis the refactoring of the code made it more efficient. In the original code the macro loops through the entire data set 12 times, once for each string in the array.
 
-##### Sample of 12 Loops
+##### Sample of 12 Loop Macro
 ```
     'Loop Through Tickers
     For i = 0 To 11
@@ -66,8 +66,12 @@ In this anlysis the refactoring of the code made it more efficient. In the origi
     Next i
 
 
+
+
 In the refactored code the macro only loops through the data set once. It checks the ticker in each row to see if it changes. When it changes it increments the tickerIndex to start summarizing the next ticker. This allows the macro to run much faster.
 
+
+##### Sample of 1 Loops Macro
 ```
     ''2b) Loop over all the rows in the spreadsheet.
         For i = 2 To RowCount
