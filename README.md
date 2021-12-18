@@ -6,10 +6,11 @@ The purpose of this analysis is analyze Green Energy stocks for Steve's parents.
 ## Results
 
 ### Stock Performance
-
+![Stock_Analysis_Results.pn](https://github.com/Brandonkish1/stock-analysis/blob/main/Stock_Analysis_Results.png)
 
 ### Macro Performance
 ![VBA_Challenge_2017.png](https://github.com/Brandonkish1/stock-analysis/blob/main/VBA_Challenge_2017.png)
+![VBA_Challenge_2018.png](https://github.com/Brandonkish1/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
 
 
@@ -23,7 +24,7 @@ Some advantages of refactored code are improved performance. This could be becau
 There is potential for mistakes. You are taking something that worked and changing it. 
 
 ### How it applies to this analysis
-In this anlysis the refactoring of the code made it more efficient. In the original code the macro loops through the entire data set 12 times, once for each string in the array.
+In this analysis the refactoring of the code made it more efficient. In the original code the macro loops through the entire data set 12 times, once for each string in the array.
 
 ##### Sample of 12 Loop Macro
 ```
