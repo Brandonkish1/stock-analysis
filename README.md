@@ -64,6 +64,7 @@ In this anlysis the refactoring of the code made it more efficient. In the origi
     Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
     
     Next i
+```
 
 
 
