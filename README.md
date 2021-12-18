@@ -112,7 +112,9 @@ In the refactored code the macro only loops through the data set once. It checks
 #### Advantages
 Some advantages of refactored code are improved performance. This could be because the code runs faster, is less repetitive, or structured for a large volume of data rather than a hard coded range. 
 
+In this excercise the advantages outweighted the disadvantages as refactoring the code in this analysis resulted in improved processing time. Creating the multiple arrays made it possible to loop through the entire data set once instead of 12 times which is more efficient. 
+
 #### Disadvantages
 There is potential for mistakes. You are taking something that worked and changing it. 
 
-### How it applies to this analysis
+There were a few things I had to debug while testing the code. This was mostly due forgetting to change the original variable names to the new ones. 
