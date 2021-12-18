@@ -5,6 +5,8 @@ The purpose of this analysis is analyze Green Energy stocks for Steve's parents.
 
 ## Results
 
+### Stock Performance
+
 
 
 
@@ -17,7 +19,7 @@ Some advantages of refactored code are improved performance. This could be becau
 #### Disadvantages
 There is potential for mistakes. You are taking something that worked and changing it. 
 
-#### How it applies to this analysis
+### How it applies to this analysis
 In this anlysis the refactoring of the code made it more efficient. In the original code the macro loops through the entire data set 12 times, once for each string in the array.
 
 ##### Sample of 12 Loop Macro
