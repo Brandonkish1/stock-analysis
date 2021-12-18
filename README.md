@@ -64,7 +64,7 @@ In this anlysis the refactoring of the code made it more efficient. In the origi
     Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
     
     Next i
-    ```
+
 
 In the refactored code the macro only loops through the data set once. It checks the ticker in each row to see if it changes. When it changes it increments the tickerIndex to start summarizing the next ticker. This allows the macro to run much faster.
 
