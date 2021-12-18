@@ -8,22 +8,14 @@ The purpose of this analysis is analyze Green Energy stocks for Steve's parents.
 ### Stock Performance
 ![Stock_Analysis_Results.pn](https://github.com/Brandonkish1/stock-analysis/blob/main/Stock_Analysis_Results.png)
 
+DQ seems to be volatile with large gains, 199%, in 2017 but and losses, 62%, in 2018. Adding other stocks to the portfolio such as ENPH and RUN could decrease volatility because they increased in value year over year.
+
 ### Macro Performance
+
+##### Macro Execution Times (Refactored)
 ![VBA_Challenge_2017.png](https://github.com/Brandonkish1/stock-analysis/blob/main/VBA_Challenge_2017.png)
 ![VBA_Challenge_2018.png](https://github.com/Brandonkish1/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
-
-
-## Summary
-
-### Refactoring Code
-#### Advantages
-Some advantages of refactored code are improved performance. This could be because the code runs faster, is less repetitive, or structured for a large volume of data rather than a hard coded range. 
-
-#### Disadvantages
-There is potential for mistakes. You are taking something that worked and changing it. 
-
-### How it applies to this analysis
 In this analysis the refactoring of the code made it more efficient. In the original code the macro loops through the entire data set 12 times, once for each string in the array.
 
 ##### Sample of 12 Loop Macro
@@ -111,3 +103,16 @@ In the refactored code the macro only loops through the data set once. It checks
     
         Next i
 ```
+
+
+
+## Summary
+
+### Refactoring Code
+#### Advantages
+Some advantages of refactored code are improved performance. This could be because the code runs faster, is less repetitive, or structured for a large volume of data rather than a hard coded range. 
+
+#### Disadvantages
+There is potential for mistakes. You are taking something that worked and changing it. 
+
+### How it applies to this analysis
